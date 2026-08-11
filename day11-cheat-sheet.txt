@@ -1,0 +1,41 @@
+
+# ============DAY 11 CHEAT SHEET ===========
+
+# Show branches
+git branch
+
+# Current branch
+git branch --show-current
+
+# Create branch
+git branch feature/name
+
+# Switch branch
+git switch feature/name
+
+# Create Branch + Switch
+git switch -c feature/name
+
+# Merge Branch
+git merge feature/name
+
+# Delete merged branch
+git branch -d feature/name
+
+# Add Remote
+git remote add origin REPOSITORY_URL
+
+# Chcek Remote
+git remote -v
+
+# Push
+git push -u origin main
+
+# Pull changes
+git pull
+
+# Fetch changes
+git fetch origin
+
+# Clone repository
+git clone REPOSITORY_URL
